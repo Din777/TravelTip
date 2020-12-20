@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/map.css"> -->
+    <title>ES6</title>
+</head>
+
+<body>
+    <h1>TravelTip</h1>
+    <section class="main-controller">
+        <div class="bottom-area">
+            <input type="text" placeholder="search">
+            <button class="goToSearch-btn">Go</button>
+            <button class="copy-btn">Copy Location</button>
+            <button class="btn">My location</button>
+            <div id="map" style="width: 100%; height: 400px;"></div>
+            <div class="thePlacesTable"></div>
+        </div>
+        <h3 class="copied-link"></h3>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="js/map-controller.js"></script>
+</body>
+
+</html>

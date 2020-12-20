@@ -1,0 +1,25 @@
+body {
+    background-color: lightsalmon;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+
+/* .top-area {
+    float: right;
+} */
+
+.bottom-area {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+#map {
+    grid-column: -2/-1;
+}
+
+.thePlacesTable {
+    grid-column: 1/2;
+}
